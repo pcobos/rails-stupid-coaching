@@ -1,5 +1,16 @@
 <h1>Here are your answers</h1>
 
-<%= @answer %>
+<div class="message-card">
+  <h3><%= @message %></h3>
+  <p>- You</p>
+</div>
 
-<%= link_to "Talk to your coach again", ask_path  %>
+
+<div class="answer-card">
+  <h3><%= @answer %></h3>
+  <p>- Your coach</p>
+</div>
+
+<div class="link">
+  <%= link_to "Talk to your coach again", ask_path  %>
+</div>

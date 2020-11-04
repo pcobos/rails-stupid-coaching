@@ -1,3 +1,26 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+$yellow: #FFFFE1;
+$gray: rgba(224, 215, 215, 0.856);
+
+.body {
+  font-family: serif;
+  // font: ;
+}
+
+.message-card {
+  background-color: $gray;
+  border-left: 8px solid rgb(56, 56, 56);
+  // padding: 1px;
+}
+
+.answer-card {
+  background-color: $yellow;
+  border-left: 8px solid rgb(56, 56, 56);
+  // padding: 1px;
+}
+
+.link {
+  text-decoration: none;
+}
