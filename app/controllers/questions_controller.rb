@@ -5,6 +5,7 @@ class QuestionsController < ApplicationController
   end
 
   def answer
-    
+    @question = params[:message]
+    raise
   end
 end
