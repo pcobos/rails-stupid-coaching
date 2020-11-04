@@ -4,23 +4,26 @@
 $yellow: #FFFFE1;
 $gray: rgba(224, 215, 215, 0.856);
 
-.body {
-  font-family: serif;
+body {
+  // font-family: serif;
+  font-family: Arial, Helvetica, sans-serif;
   // font: ;
 }
 
 .message-card {
   background-color: $gray;
   border-left: 8px solid rgb(56, 56, 56);
-  // padding: 1px;
+  padding: 1px;
+  margin-bottom: 4px;
 }
 
 .answer-card {
   background-color: $yellow;
   border-left: 8px solid rgb(56, 56, 56);
-  // padding: 1px;
+  padding: 1px;
+  margin-bottom: 4px;
 }
 
-.link {
+.message-link {
   text-decoration: none;
 }
